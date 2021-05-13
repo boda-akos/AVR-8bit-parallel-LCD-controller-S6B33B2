@@ -1,4 +1,5 @@
-
+//PORTD data bus RX=0, TX=1, 2,3,4,5,6,7 Arduino Uno pins. A3 is reset but reset on 3.3V seems to work. TFT_WR		10, TFT_RS		9, TFT_CS		8 change in H file if you want.
+//Use level shifters if your Arduino is not 3.3V (8Mhz) type.
 #include "Adafruit_TFTLCD_8bit_AVR.h" 
 
 Adafruit_TFTLCD_8bit_AVR tft;
